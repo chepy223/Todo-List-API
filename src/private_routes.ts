@@ -15,9 +15,11 @@ import { Router } from 'express';
 import { safe } from './utils';
 import * as actions from './actions';
 
-// declare a new router to include all the endpoints
+// declarar un nuevo enrutador para incluir todos los puntos finales
 const router = Router();
+/* Aqui van las rutas privadas */
+/* Leemos los usuarios */
+/* Aqui van las rutas publicas */
 
-router.get('/user', safe(actions.getUsers));
-
+ 
 export default router;
